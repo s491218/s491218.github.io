@@ -1,0 +1,105 @@
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+/*General tags*/
+html {background-color: yellow;}
+body {
+	color: white;
+	background-color: #1A1A1A;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    width: 1000px;
+    margin:auto;
+    padding: 0px 0px 0px 0px;
+    border: solid gray;
+}
+
+ol {
+	line-height: 150%;
+}
+header {
+	background-color: black;
+	padding-top: 2em; 
+	padding-bottom: 2em;
+	border-bottom: 2px solid #ef9c00;
+}
+footer p {
+	text-align: center;
+}
+/*Nav tags*/
+nav {
+	clear: both;
+}
+nav ul {
+	list-style: none;
+	padding: 1em 0;       
+	background-color: #800000; }
+nav li {
+	display: inline; }
+span {
+	padding: 1em 2em;
+}
+nav a {
+	padding: 1em 2em;
+	text-decoration: none;
+	font-weight: bold;}
+/* For the H tags*/
+h1 { 
+	font-size: 250%;
+	background-color: blue; 
+	color: green;
+	text-align: center;
+	text-shadow: 1px 1px 0 black;
+	margin-bottom: .25em;
+	border-bottom:solid gray;
+	margin-top: 1px;
+} 
+h2 { text-align: center;
+}
+h3 { 
+	text-decoration: underline;
+	color: white;
+	text-align: center;
+	margin-bottom: 3px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid gray;
+}
+h4 { text-align: center; }
+/* Styles for my links */
+a:link {color: #0099CC;
+	margin-bottom: 10px;
+
+  }
+a:visited {
+	color: gray
+	}
+a:hover, a:focus {
+	color: gray;
+	font-style: italic;
+}
+/* Classes for tags */
+img.displayed {
+	background-color: black; 
+    display: block;
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #313131;
+}
+.info { margin-left: 5px;
+	font-size: 150%;
+   font-weight: bold;
+  }
+.citation {font-size: 100%;
+	text-align: center;
+	padding-bottom: 2px;
+}
+.history {
+	text-align: center; 
+}
+.topborder {
+	border-top: solid gray;
+}
+
