@@ -13,7 +13,9 @@ body {
     padding: 0px 0px 0px 0px;
     border: solid gray;
 }
-
+p {
+   text-align: center;
+}
 ol {
 	line-height: 150%;
 }
@@ -39,6 +41,7 @@ nav li {
 span {
 	padding: 1em 2em;
 }
+
 nav a {
 	padding: 1em 2em;
 	text-decoration: none;
@@ -78,6 +81,9 @@ a:visited {
 a:hover, a:focus {
 	color: gray;
 	font-style: italic;
+}
+a {
+	text-align: center;
 }
 /* Classes for tags */
 img.displayed {
